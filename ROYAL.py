@@ -1,5 +1,4 @@
-# Source Generated with Decompyle++ 
-   
+# Source Generated with Decompyle++   
  # File: test.pyc (Python 3.9) 
    
  W = '\x1b[1;97m' # write 

@@ -1,172 +1,84 @@
 # Source Generated with Decompyle++   
- # File: test.pyc (Python 3.9) 
-   
- W = '\x1b[1;97m' # write 
-   
+ # File: test.pyc (Python 3.9)   
+ W = '\x1b[1;97m' # write  
  R = '\x1b[1;91m' # red 
-   
- G = '\x1b[1;92m' # Green 
-   
+ G = '\x1b[1;92m' # Green  
  Y = '\x1b[1;93m' # Yellow 
-   
  B = '\x1b[1;94m' # bule 
-   
  P = '\x1b[1;95m' # pink 
-   
  nb = '\x1b[1;96m' # Bule 50% 
-   
  A = '\x1b[1;90m' # WARNA ABU ABU # current 
    
- import os 
-   
- import sys 
-   
- import time 
-   
+ import os  
+ import sys  
+ import time  
  import requests 
-   
  import uuid 
-   
  from os import system as s 
-   
  os.system('git pull') 
-   
  os.system('pkg install curl') 
-   
  class ADIL: 
-   
-      
-   
      def __init__(self, z): 
-   
-         pass 
-   
- logo =f""" 
-   
- ########    ###    ##    ##       ## #### ######## 
-   
- ##      ## ##   ###   ##       ##  ##  ##     ## 
-   
-    ##     ##   ##  ####  ##       ##  ##  ##     ## 
-   
- ##    ######### ##  #### ##    ##  ##  ##     ## 
-   
- ##    ##     ## ##   ### ##    ##  ##  ##     ## 
-   
- ##    ##     ## ##    ##  ######  #### ######## 
-   
-                                        
-   
- {Y}******************************************************* 
-   
- {B} [{R}✔{B}] {Y}DEVELOPER  :{G} TANJID VAI   
-   
- {B} [{R}✔{B}] {B}FACEBOOK   :{G} TANJID VAI  
-   
+         pass  
+ logo =f"""   
+ ########    ###    ##    ##       ## #### ########  
+ ##      ## ##   ###   ##       ##  ##  ##     ##  
+    ##     ##   ##  ####  ##       ##  ##  ##     ##  
+ ##    ######### ##  #### ##    ##  ##  ##     ##  
+ ##    ##     ## ##   ### ##    ##  ##  ##     ##  
+ ##    ##     ## ##    ##  ######  #### ########   
+ {Y}*********************************************************""   
+ {B} [{R}✔{B}] {Y}DEVELOPER  :{G} TANJID VAI     
+ {B} [{R}✔{B}] {B}FACEBOOK   :{G} TANJID VAI   
  {B} [{R}✔{B}] {nb}WHATSAPP   :{G} 01884153077 
-   
- {B} [{R}✔{B}] {R}VERSION    :{G} 2.2.1 
-   
- {Y}*******************************************************""" 
-   
- def fb(): 
-   
+ {B} [{R}✔{B}] {R}VERSION    :{G} 2.2.1   
+ {Y}*******************************************************"""   
+ def fb():   
      s("xdg-open https://www.facebook.com/Aso.Baby.Cubi.tumake") 
-   
- def git(): 
-   
-     s(" os.system('xdg-open https://github.com/tanjidbd71')") 
-   
- def git(): 
-   
-     s("xdg-open https://github.com/tanjidbd71") 
-   
- def o(): 
-   
-     os.system('clear') 
-   
-     sefat(logo) 
-   
-     print('') 
-   
-     sefat(f'\x1b[1;32m{B} [{R}1{B}]\x1b[1;33m {G}RANDOM CRACK ') 
-   
-     sefat(f'\x1b[1;32m{B} [{R}2{B}]{Y} CONTACT ME ON FACEBOOK') 
-   
-     sefat(f' \x1b[1;32m{B}[{R}3{B}] \x1b[1;32m{P}FOLLOW MY GITHUB') 
-   
-     sefat(f' \x1b[1;32m{B}[{R}0{B}] \x1b[1;31mEXIT') 
-   
-     opt = input(f'\n {R}[{G}+{R}] {B}Choose : ') 
-   
-     if opt == '1': 
-   
-         git() 
-   
-         i() 
-   
-          
-   
-     elif opt == '2': 
-   
+ def git():   
+     s(" os.system('xdg-open https://github.com/tanjidbd71')")    
+ def git():   
+     s("xdg-open https://github.com/tanjidbd71")   
+ def o():    
+     os.system('clear')    
+     sefat(logo)   
+     print('')   
+     sefat(f'\x1b[1;32m{B} [{R}1{B}]\x1b[1;33m {G}RANDOM CRACK ')    
+     sefat(f'\x1b[1;32m{B} [{R}2{B}]{Y} CONTACT ME ON FACEBOOK')    
+     sefat(f' \x1b[1;32m{B}[{R}3{B}] \x1b[1;32m{P}FOLLOW MY GITHUB')   
+     sefat(f' \x1b[1;32m{B}[{R}0{B}] \x1b[1;31mEXIT')   
+     opt = input(f'\n {R}[{G}+{R}] {B}Choose : ')   
+     if opt == '1':   
+         git()  
+         i()           
+     elif opt == '2':    
          s("xdg-open https://www.facebook.com/please.kolixa.report.my.id") 
-   
-     elif opt == '3': 
-   
-         git() 
-   
-          
-   
-     if None == '0': 
-   
+     elif opt == '3':   
+         git()   
+     if None == '0':   
          os.system('exit') 
-   
-         return None 
-   
- import os,sys,time,json,random,re,string,platform,base64,uuid 
-   
- os.system("git pull") 
-   
- from bs4 import BeautifulSoup as sop 
-   
- from bs4 import BeautifulSoup 
-   
- import requests as ress 
-   
- from datetime import date 
-   
- from datetime import datetime 
-   
- from time import sleep 
-   
- from time import sleep as waktu 
-   
- try: 
-   
-     import requests 
-   
-     from concurrent.futures import ThreadPoolExecutor as ThreadPool 
-   
-     import mechanize 
-   
-     from requests.exceptions import ConnectionError 
-   
- except ModuleNotFoundError: 
-   
-     os.system('pip install mechanize requests futures bs4==2 > /dev/null') 
-   
-     os.system('pip install bs4') 
-   
-      
-   
- def cek_apk(session,coki): 
-   
-     w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text 
-   
-     sop = BeautifulSoup(w,"html.parser") 
-   
-     x = sop.find("form",method="post") 
-   
+         return None  
+ import os,sys,time,json,random,re,string,platform,base64,uuid   
+ os.system("git pull")   
+ from bs4 import BeautifulSoup as sop  
+ from bs4 import BeautifulSoup   
+ import requests as ress   
+ from datetime import date  
+ from datetime import datetime   
+ from time import sleep   
+ from time import sleep as waktu   
+ try:  
+     import requests  
+     from concurrent.futures import ThreadPoolExecutor as ThreadPool   
+     import mechanize    
+     from requests.exceptions import ConnectionError   
+ except ModuleNotFoundError:   
+     os.system('pip install mechanize requests futures bs4==2 > /dev/null')  
+     os.system('pip install bs4')    
+ def cek_apk(session,coki):   
+     w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text  
+     sop = BeautifulSoup(w,"html.parser")  
+     x = sop.find("form",method="post")  
      game = [i.text for i in x.find_all("h3")] 
    
      if len(game)==0: 

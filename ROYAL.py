@@ -3,7 +3,6 @@
  # AUHTOR : MUHAMMAD SYAFII 
  #NGAPAIN LIAT KESINI NGAB# 
  #MAU RECODE IZIN DULU NGAB# 
- code = 2712998 
  import requests,bs4,json,os,sys,random,datetime,time,re 
  import urllib3 
  try: 

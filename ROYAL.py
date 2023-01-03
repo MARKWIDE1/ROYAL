@@ -1,5 +1,4 @@
-atry 
-         import requests,calendar 
+    import requests,calendar 
  except ModuleNotFoundError: 
          os.system("python -m pip install requests ") 
  try: 
